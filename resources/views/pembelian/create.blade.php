@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<h4>Tambah Pembelian Bahan</h4>
+<h4>Tambah Pembelian Baha</h4>
 
 <form action="{{ route('pembelian.store') }}" method="POST">
     @csrf
